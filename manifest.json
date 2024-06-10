@@ -1,0 +1,17 @@
+{
+  "name": "Dad Jokes",
+  "version": "1.0.0",
+  "description": "Fetch and display dad jokes on demand!",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "storage"]
+}
